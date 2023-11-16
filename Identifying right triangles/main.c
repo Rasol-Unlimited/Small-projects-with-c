@@ -3,7 +3,7 @@
 int main() {
 
   // Definition of variables | تعریف متغیرها
-  int a, b, c;
+  int a=0, b=0, c=0;
 
   // Get the length of the sides of the triangle from the user | دریافت طول اضلاع مثلث از کاربر
   // The length of the first side | طول ضلع اول
