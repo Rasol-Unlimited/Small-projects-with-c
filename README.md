@@ -10,6 +10,6 @@
 - [The divisor of the number](https://github.com/Rasol-Unlimited/Small-projects-with-c/tree/main/The%20divisor%20of%20the%20number)
 - - _By entering a number, you can get its divisors_
 
-> The files have descriptions in Farsi language
+> The files have descriptions in Persian language
 
 > All codes are written by Mohammad Rasol Sohrabi(Rasol Unlimited)
