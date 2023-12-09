@@ -1,3 +1,5 @@
+![Project C](https://github.com/Rasol-Unlimited/Small-projects-with-c/assets/62307687/7673fc2c-631e-4d86-a72e-c832d1e05d5e)
+
 # Small-projects-with-c
 **Small projects done for Tehran Azad University.**
 
