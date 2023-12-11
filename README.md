@@ -1,3 +1,5 @@
+![Project C](https://github.com/Rasol-Unlimited/Small-projects-with-c/assets/62307687/7673fc2c-631e-4d86-a72e-c832d1e05d5e)
+
 # Small-projects-with-c
 **Small projects done for Tehran Azad University.**
 
@@ -10,6 +12,6 @@
 - [The divisor of the number](https://github.com/Rasol-Unlimited/Small-projects-with-c/tree/main/The%20divisor%20of%20the%20number)
 - - _By entering a number, you can get its divisors_
 
-> The files have descriptions in Farsi language
+> The files have descriptions in Persian language
 
 > All codes are written by Mohammad Rasol Sohrabi(Rasol Unlimited)
