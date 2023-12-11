@@ -6,20 +6,25 @@ https://github.com/Rasol-Unlimited*/
 
 int main() {
 
-    printf("welcome!!\nIn this program, you enter your desired number and I will tell you the number of its digits.\n\n");
+    printf("welcome!!\nIn this program, by entering 2 arbitrary numbers, you will receive their greatest common divisor.\n\n");
 
     // Definition of variables
-    int n, count = 0;
-    
+    int m, n;
+
     label_main:
-        count = 0;
-        printf("Enter a number: ");
+        printf("Enter the first number: ");
+        scanf("%d", &m);
+
+        printf("Enter the second number: ");
         scanf("%d", &n);
-        while(n > 0){
-            count++;
-            n /= 10;
+
+        while (n != 0) {
+            int temp = m;
+            m = n;
+            n = temp % n;
         }
-        printf(">> The number of digits of the entered number: %d", count);
+
+        printf(">> GCD Two numbers entered: %d", m);
         goto label_continue;
 
     label_continue:
