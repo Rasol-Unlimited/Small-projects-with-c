@@ -6,24 +6,34 @@ https://github.com/Rasol-Unlimited*/
 
 int main() {
 
-    printf("welcome!!\nin this program I check the integer you enter and tell you if your number is prime or not.\n\n");
-    
+    printf("welcome!!\nIn this program, you enter an arbitrary number and you receive smaller prime numbers in response.\n\n");
+
     // Definition of variables
-    int n=0, i, label_main, label_continue;
+    int n=0, i, j, label_main, label_continue;
 
     label_main:
+        // Receive input from the user
         printf("Enter a number: ");
         scanf("%d", &n);
-        // Check if a number is prime or not
-        for (i = 2; i <= n / 2; i++) {
-            if (n % i == 0) {
-            printf(">> %d is not a prime number.", n);
+
+        // Checking whether the entered number is correct or not
+        if (n <= 2) {
+            printf(">> Incorrect number.");
             goto label_continue;
             return 0;
+        }else{
+            printf(">> ");
+            for (int i = 2; i < n; i++) {
+                for (j = 2; j * j <= i; j++) {
+                    if (i % j == 0) {
+                        break;
+                    }
+                }
+                if (j * j > i) {
+                    printf("%d ", i);
+                }
             }
         }
-        printf(">> %d is a prime number.", n);
-        goto label_continue;
 
     label_continue:
         printf("\nDo you want to continue? (y/n): ");
@@ -35,6 +45,6 @@ int main() {
         }else{
             printf("-----------\nGood Luck!!");
         }
-        
+
     return 0;
-}
+    }

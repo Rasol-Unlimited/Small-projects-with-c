@@ -32,12 +32,15 @@ int main() {
     goto label_continue;
 
   label_continue:
-    printf("\ndo you continue?  y | n\n");
-    scanf("%s", &c);
-    if (c == 'y'){
-    printf("-----------\n");
-        goto label_main;
-    }
+      printf("\nDo you want to continue? (y/n): ");
+      char d;
+      scanf("%s", &d);
+      if (d == 'y' || d == 'Y') {
+          printf("-----------\n");
+          goto label_main;
+      }else{
+          printf("-----------\nGood Luck!!");
+      }
 
 return 0;
 }
