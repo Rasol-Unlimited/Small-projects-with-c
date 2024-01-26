@@ -30,3 +30,8 @@
 > The files have descriptions in Persian language
 
 > All codes are written by Mohammad Rasol Sohrabi(Rasol Unlimited)
+
+### Contact to Developer
+[![Email](https://img.shields.io/badge/Email-Rasol.Unlimited@gmail.com-blue?logo=Gmail&logoColor=EA4335)](mailto:Rasol.unlimited@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Unlimited__Rasol-blue?logo=instagram)](https://instagram.com/unlimited_rasol/)
+[![Discord](https://img.shields.io/badge/Discord-rasol__unlimited-blue?logo=Discord&logoColor=5865F2)](https://www.discord.com/users/727228555959992463)
